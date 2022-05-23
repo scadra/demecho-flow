@@ -1,16 +1,16 @@
 {
-  "flow": [
+  "initFlow": [
     {
       "id": "c9d7021fcca111de",
       "type": "http in",
       "z": "5f060b715a381ee3",
-      "name": "get/tado-devices",
-      "url": "/tado/devices",
+      "name": "get/tado-current",
+      "url": "/tado/current",
       "method": "get",
       "upload": false,
       "swaggerDoc": "",
       "x": 120,
-      "y": 10,
+      "y": 260,
       "wires": [["f047e1793dafd87f"]]
     },
     {
@@ -18,7 +18,7 @@
       "type": "tado",
       "z": "5f060b715a381ee3",
       "configName": "",
-      "apiCall": "getZones",
+      "apiCall": "getMe",
       "homeId": "",
       "deviceId": "RU3983676416",
       "zoneId": "''",
@@ -38,7 +38,7 @@
       "openWindowMode": true,
       "timetableId": "",
       "x": 370,
-      "y": 10,
+      "y": 260,
       "wires": [["6105eaba81f012b7"]]
     },
     {
@@ -53,18 +53,87 @@
       "finalize": "",
       "libs": [],
       "x": 620,
-      "y": 10,
+      "y": 260,
       "wires": [["a833cb053d5568df"]]
     },
     {
       "id": "a833cb053d5568df",
       "type": "http response",
       "z": "5f060b715a381ee3",
+      "name": "return/tado-current",
+      "statusCode": "200",
+      "headers": {},
+      "x": 890,
+      "y": 260,
+      "wires": []
+    }
+  ],
+  "flow": [
+    {
+      "id": "d4a5e4ac0cd0dd33",
+      "type": "http in",
+      "z": "5f060b715a381ee3",
+      "name": "get/tado-devices",
+      "url": "/tado/devices",
+      "method": "get",
+      "upload": false,
+      "swaggerDoc": "",
+      "x": 120,
+      "y": 320,
+      "wires": [["c5cb74e08d32be00"]]
+    },
+    {
+      "id": "c5cb74e08d32be00",
+      "type": "tado",
+      "z": "5f060b715a381ee3",
+      "configName": "2f671281-45d9-4031-9fc7-14bac502a8a9",
+      "apiCall": "getDevices",
+      "homeId": "496181",
+      "deviceId": "RU3983676416",
+      "zoneId": "''",
+      "power": "on",
+      "temperature": "18",
+      "terminationType": "manual",
+      "terminationTimeout": 900,
+      "fanSpeed": "AUTO",
+      "acMode": "AUTO",
+      "name": "tado-devices",
+      "reportDate": "",
+      "presence": "HOME",
+      "geoTracking": true,
+      "temperatureOffset": "20",
+      "windowDetection": true,
+      "windowDetectionTimeout": 900,
+      "openWindowMode": true,
+      "timetableId": "",
+      "x": 370,
+      "y": 320,
+      "wires": [["2ea19c8689ba74e6"]]
+    },
+    {
+      "id": "2ea19c8689ba74e6",
+      "type": "function",
+      "z": "5f060b715a381ee3",
+      "name": "",
+      "func": "\nreturn msg;",
+      "outputs": 1,
+      "noerr": 0,
+      "initialize": "",
+      "finalize": "",
+      "libs": [],
+      "x": 620,
+      "y": 320,
+      "wires": [["a3f8cee164d22930"]]
+    },
+    {
+      "id": "a3f8cee164d22930",
+      "type": "http response",
+      "z": "5f060b715a381ee3",
       "name": "return/tado-devices",
       "statusCode": "200",
       "headers": {},
       "x": 890,
-      "y": 10,
+      "y": 320,
       "wires": []
     }
   ]
