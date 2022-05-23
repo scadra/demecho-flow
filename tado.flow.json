@@ -1,5 +1,5 @@
 {
-  "initFlow": [
+  "init": [
     {
       "id": "c9d7021fcca111de",
       "type": "http in",
@@ -68,7 +68,7 @@
       "wires": []
     }
   ],
-  "flow": [
+  "flows": [
     {
       "id": "d4a5e4ac0cd0dd33",
       "type": "http in",
