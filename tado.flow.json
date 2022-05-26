@@ -66,6 +66,28 @@
       "x": 890,
       "y": 260,
       "wires": []
+    },
+    {
+      "id": "9f1ea5617b369f10",
+      "type": "catch",
+      "z": "5f060b715a381ee3",
+      "name": "",
+      "scope": ["f047e1793dafd87f"],
+      "uncaught": false,
+      "x": 350,
+      "y": 500,
+      "wires": [["59b9f9616dfaa8cc"]]
+    },
+    {
+      "id": "59b9f9616dfaa8cc",
+      "type": "http response",
+      "z": "5f060b715a381ee3",
+      "name": "return/tado-current",
+      "statusCode": "500",
+      "headers": {},
+      "x": 890,
+      "y": 500,
+      "wires": []
     }
   ],
   "flows": [
