@@ -393,8 +393,8 @@
   "routes": {
     "current": "/tado/current",
     "devices": "/tado/devices",
-    "device-by-id": "/tado/device",
+    "devicebyid": "/tado/device",
     "rooms": "/tado/zones",
-    "room-by-id": "/tado/zone"
+    "roombyid": "/tado/zone"
   }
 }
