@@ -124,7 +124,7 @@
       "method": "get",
       "upload": false,
       "swaggerDoc": "",
-      "x": 160,
+      "x": 140,
       "y": 0,
       "wires": [["http-in-function-${id}-get"]]
     },
@@ -181,7 +181,7 @@
       "method": "post",
       "upload": false,
       "swaggerDoc": "",
-      "x": 160,
+      "x": 140,
       "y": 0,
       "wires": [["http-in-function-${id}-post"]]
     },
@@ -196,7 +196,7 @@
       "initialize": "",
       "finalize": "",
       "libs": [],
-      "x": 500,
+      "x": 480,
       "y": 0,
       "wires": [["mqtt-out-${id}-set", "http-response-${id}-post"]]
     },
@@ -242,7 +242,7 @@
       "rap": true,
       "rh": 0,
       "inputs": 0,
-      "x": 130,
+      "x": 140,
       "y": 0,
       "wires": [["payload-${id}"]]
     },
