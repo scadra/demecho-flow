@@ -124,7 +124,7 @@
       "method": "get",
       "upload": false,
       "swaggerDoc": "",
-      "x": 140,
+      "x": 90,
       "y": 0,
       "wires": [["http-in-function-${id}-get"]]
     },
@@ -181,7 +181,7 @@
       "method": "post",
       "upload": false,
       "swaggerDoc": "",
-      "x": 140,
+      "x": 90,
       "y": 0,
       "wires": [["http-in-function-${id}-post"]]
     },
@@ -242,7 +242,7 @@
       "rap": true,
       "rh": 0,
       "inputs": 0,
-      "x": 140,
+      "x": 90,
       "y": 0,
       "wires": [["payload-${id}"]]
     },
