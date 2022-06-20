@@ -168,7 +168,7 @@
       "name": "/device/${id}",
       "statusCode": "",
       "headers": {},
-      "x": 570,
+      "x": 950,
       "y": 0,
       "wires": []
     },
