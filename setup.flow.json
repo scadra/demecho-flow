@@ -9,7 +9,7 @@
       "method": "get",
       "upload": false,
       "swaggerDoc": "",
-      "x": 110,
+      "x": 90,
       "y": 60,
       "wires": [["98bfd77518f535b5"]]
     },
@@ -24,7 +24,7 @@
       "sendError": false,
       "encoding": "utf8",
       "allProps": false,
-      "x": 300,
+      "x": 240,
       "y": 60,
       "wires": [["fe5490b51a2ef29c"]]
     },
@@ -39,7 +39,7 @@
       "initialize": "",
       "finalize": "",
       "libs": [],
-      "x": 480,
+      "x": 380,
       "y": 60,
       "wires": [["729b76026058ba53"]]
     },
@@ -54,7 +54,7 @@
       "sendError": false,
       "encoding": "utf8",
       "allProps": false,
-      "x": 670,
+      "x": 530,
       "y": 60,
       "wires": [["5de10f33d749cfe2"]]
     },
@@ -64,7 +64,7 @@
       "z": "5f060b715a381ee3",
       "property": "payload",
       "name": "",
-      "x": 830,
+      "x": 670,
       "y": 60,
       "wires": [["8b2497094b5c3c2f"]]
     },
@@ -79,7 +79,7 @@
       "initialize": "",
       "finalize": "",
       "libs": [],
-      "x": 980,
+      "x": 800,
       "y": 60,
       "wires": [["b0f86a24312b05b6"]]
     },
@@ -90,7 +90,7 @@
       "name": "return/devices",
       "statusCode": "200",
       "headers": {},
-      "x": 1180,
+      "x": 960,
       "y": 60,
       "wires": []
     },
@@ -109,8 +109,8 @@
       "server": "07edce41ce771ac4",
       "namespace": "",
       "name": "Socket",
-      "x": 90,
-      "y": 100,
+      "x": 1110,
+      "y": 60,
       "wires": [[]]
     }
   ],
