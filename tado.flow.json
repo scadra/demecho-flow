@@ -17,7 +17,7 @@
       "id": "f047e1793dafd87f",
       "type": "tado",
       "z": "5f060b715a381ee3",
-      "configName": "",
+      "configName": "2f671281-45d9-4031-9fc7-14bac502a8a9",
       "apiCall": "getMe",
       "homeId": "",
       "deviceId": "RU3983676416",
