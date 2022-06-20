@@ -168,7 +168,7 @@
       "name": "/device/${id}",
       "statusCode": "",
       "headers": {},
-      "x": 950,
+      "x": 850,
       "y": 0,
       "wires": []
     },
@@ -225,7 +225,7 @@
       "name": "/device/${name}",
       "statusCode": "",
       "headers": {},
-      "x": 570,
+      "x": 850,
       "y": 0,
       "wires": []
     },
@@ -278,7 +278,7 @@
       "type": "socketio-emitter",
       "z": "6557961920b6fdb5",
       "name": "Emit",
-      "x": 570,
+      "x": 850,
       "y": 0,
       "wires": []
     }
