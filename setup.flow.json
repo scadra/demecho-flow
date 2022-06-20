@@ -119,7 +119,7 @@
       "id": "http-in-${id}-get",
       "type": "http in",
       "z": "6557961920b6fdb5",
-      "name": "",
+      "name": "http-in-${id}-get",
       "url": "/device/${id}",
       "method": "get",
       "upload": false,
