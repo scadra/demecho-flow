@@ -263,7 +263,7 @@
       "type": "function",
       "z": "6557961920b6fdb5",
       "name": "function-emit-${id}",
-      "func": "msg.connectionName = 'Socket';\nmsg.eventName= 'AddProvider';\nreturn msg;",
+      "func": "msg.connectionName = 'Socket';\nmsg.eventName= 'StateDevice';\n msg.payload.id= '${id}';\n return msg;",
       "outputs": 1,
       "noerr": 0,
       "initialize": "",

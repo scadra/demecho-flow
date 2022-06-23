@@ -350,7 +350,7 @@
       "terminationTimeout": 900,
       "fanSpeed": "AUTO",
       "acMode": "AUTO",
-      "name": "tado-device-by-id",
+      "name": "tado-zone-state",
       "reportDate": "2022-05-21",
       "presence": "HOME",
       "geoTracking": true,
